@@ -8,7 +8,7 @@
       <ul :class="['nav-links', { open: menuOpen }]">
         <li><router-link to="/" @click="closeMenu">Inicio</router-link></li>
         <li><router-link to="/productos" @click="closeMenu">Servicios</router-link></li>
-        <li><router-link to="/promociones" @click="closeMenu">PROMOCIONES</router-link></li>
+        <li><router-link to="/promociones" @click="closeMenu">Promociones</router-link></li>
         <li><a href="https://wa.me/34613066201" target="_blank" @click="closeMenu">Contacto</a></li>
       </ul>
     </nav>
