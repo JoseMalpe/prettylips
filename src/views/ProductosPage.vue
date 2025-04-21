@@ -4,7 +4,7 @@
     <div class="lista-productos">
         <div class="columna">
           <h3>Hyaluron Pen</h3>
-          <p>Tratamiento de hidratación y relleno de labios con ácido hialurónico.</p>
+          <p>Tratamiento de hidratación y aumento de labios con ácido hialurónico.</p>
           <p class="precios"></p>
         </div>
       <div class="columna">
@@ -49,7 +49,6 @@ export default {
 
 .columna {
   flex: 1 1 300px;
-  /* se adapta al tamaño disponible */
   max-width: 45%;
   padding: 20px;
   background-color: rgb(255, 210, 210);
