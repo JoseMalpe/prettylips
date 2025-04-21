@@ -61,7 +61,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffb6c1;
+  background-color: rgb(255, 182, 193);
   padding: 10px 20px;
   border-radius: 12px;
   margin-bottom: 20px;
