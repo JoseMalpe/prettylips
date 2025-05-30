@@ -1,42 +1,39 @@
 <template>
-    <div class="promociones">
-      <h1>PROMOCIONES</h1>
-      <img src="../assets/Promocion.jpg" class="responsive-promo" alt="Promocion" />
-    </div>
-    <a 
-  href="https://wa.me/34613066201" 
-  target="_blank" 
-  rel="noopener" 
-  class="whatsapp-float"
-  aria-label="WhatsApp"
->
-<img src="../assets/icons8-whatsapp-28.svg" alt="Whatsapp" width="28" height="28" />
-</a>
+  <div class="promociones">
+    <h1>PROMOCIONES</h1>
+    <h2>Actualmente no disponemos de promociones</h2>
+  </div>
+  <a href="https://wa.me/34613066201" target="_blank" rel="noopener" class="whatsapp-float" aria-label="WhatsApp">
+    <img src="../assets/icons8-whatsapp-28.svg" alt="Whatsapp" width="28" height="28" />
+  </a>
 
-  </template>
-  
-  <script>
-  export default {
-    name: 'PromocionesPage'
-  }
-  </script>
-  
-  <style scoped>
-  .productos {
-    text-align: center;
-    padding: 2rem;
-  }
-  ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    .responsive-promo {
-    max-width: 80%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  .whatsapp-float {
+</template>
+
+<script>
+export default {
+  name: 'PromocionesPage'
+}
+</script>
+
+<style scoped>
+.productos {
+  text-align: center;
+  padding: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.responsive-promo {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.whatsapp-float {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -57,6 +54,4 @@
 .whatsapp-float:hover {
   transform: scale(1.1);
 }
-
-  </style>
-  
+</style>
